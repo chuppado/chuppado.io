@@ -15,7 +15,7 @@ on:
 
     # 🗓 Monday + Thursday at 8:00 AM (UTC+7)
     - cron: "0 1 * * 1"   # Monday
-    - cron: "30 1 * * 2"   # Thursday
+    - cron: "32 1 * * 2"   # Thursday
 
     # 🗓 Saturday at 10:00 AM (UTC+7)
     - cron: "0 3 * * 6"
