@@ -48,12 +48,9 @@ jobs:
           day = datetime.utcnow().strftime("%A")
 
           message = (
-              f"🧺 Laundry Reminder!\n"
-              f"Time to do your laundry today ({day})!\n\n"
-              f"✅ Separate whites & colors\n"
-              f"✅ Check pockets before washing\n"
-              f"✅ Don't forget to transfer to dryer!\n\n"
-              f"You got this! 💪"
+              f"🧺 Schedule Reminder!\n"
+              f"Time to do your Schedule ({day})!\n\n"
+              f"✅ https://chuppado.github.io/\n"
           )
 
           payload = {
