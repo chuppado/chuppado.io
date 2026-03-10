@@ -45,7 +45,7 @@ jobs:
           user_id = os.environ["LINE_USER_ID"]
 
           # Get current day name
-          day = datetime.now(timezone.utc).strftime("%A")
+          day = datetime.utcnow().strftime("%A")
 
           message = (
               f"🧺 Schedule Reminder!\n"
