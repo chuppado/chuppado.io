@@ -39,14 +39,14 @@ jobs:
           import urllib.request
           import json
           import os
-          from datetime import datetime
+          from datetime import datetime, timezone, timedelta
 
           token   = os.environ["LINE_CHANNEL_ACCESS_TOKEN"]
           user_id = os.environ["LINE_USER_ID"]
 
           # Get current day name
-          day = datetime.utcnow().strftime("%A")
-
+          local_tz = timezone(timedelta(hours=11))
+          day = datetime.now(local_tz).strftime("%A")
           message = (
               f"🧺 Schedule Reminder!\n"
               f"Time to do your Schedule ({day})!\n\n"
