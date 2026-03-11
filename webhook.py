@@ -13,6 +13,7 @@ LINE_CHANNEL_ACCESS_TOKEN = os.environ.get("LINE_CHANNEL_ACCESS_TOKEN", "")
 
 TRIGGER_PHRASE = "link please bot"
 ANNOUNCEMENT_URL = "https://chuppado.github.io/"
+ANNOUNCEMENT_URL_2 = "https://chuppado.github.io.order/"
 
 
 def send_reply(reply_token: str, message: str):
@@ -37,7 +38,8 @@ def get_message() -> str:
     return (
         f"🧺 Schedule Reminder!\n"
         f"Time to do your Schedule!\n\n"
-        f"✅ {ANNOUNCEMENT_URL}\n"
+        f"✅ {ANNOUNCEMENT_URL}\n\n"
+        f"✅ {ANNOUNCEMENT_URL_2}
     )
 
 
