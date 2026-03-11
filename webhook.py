@@ -39,7 +39,7 @@ def get_message() -> str:
         f"🧺 Schedule Reminder!\n"
         f"Time to do your Schedule!\n\n"
         f"✅ {ANNOUNCEMENT_URL}\n\n"
-        f"✅ {ANNOUNCEMENT_URL_2}
+        f"✅ {ANNOUNCEMENT_URL_2}\n"
     )
 
 
